@@ -1,25 +1,72 @@
-<DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>About me site</title>
-
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    
 </head>
 <body>
-<h1>ABOUT ME </h1>
-<hr/>
-<P>My name is <i>Adele Okoro</i>, i am twenty years of age,I study law in <i> the Nile university </i>and i am currently in my final level. dispite my course of study, i still enjoy things like;<i> painting, drawing, sewing, pastery making, baking and sports like volleyball amd basketball.</i></p>
-<p>I come from a comfortable family, we aren't as<i> wealthy as the Adelekes'</i> ,but we aren,t struggling to make life work.</p>
-<p>I also like to travel, i have been around states and i can,t wait to leave the country to places like the<i> maldives and finland, netherlands and ireland,</i> an all girls vacation at least, with my 5 sisters.</p>
-<hr/>
-<h2>Adele Okoro</h2>
-<hr/>
-<p> you can reach me using the following.</p>
-<p> phone number:<b> 08156783423</b></p>
-<p>email:<i> adeleokoro@gmail.com</i></p>
 
+    <h1>Registration Form</h1>
+
+    <form id="registrationForm">
+        FIRST NAME:<input type="text"  name="FIRST_NAME" size="30" maxlength="5" >
+        <br/>
+        <br/>
+        SURNAME:<input type="text"  name="SURNAME" size="30" maxlength="5">
+        <br/>
+        <br/>
+        EMAIL: <input type="email" name="email" size="30" maxlength="5" >
+        <br/>
+        <br/>
+        DATE<input type="date"  name="Date of Birth" size="30" maxlength="5">
+        <br/>
+        <br/>
+        MALE<input type="radio" name="gender" value="Male">
+        <br/>
+        <br/>
+        FEMALE<input type="radio"  name="gender" value="Female">
+        <br/>
+        <br/>
+       <b> FAVOURITE SUBJECTS </b>
+        <br/>
+        <br/>
+        MATH<input type="checkbox" name="math" value="on">
+        <br/>
+        <br/>
+        BIOLOGY<input type="checkbox" name="biology" value="on">
+        <br/>
+        <br/>
+        ENGLISH<input type="checkbox" name="english" value="on">
+        <br/>
+        <br/>
+        HISTORY<input type="checkbox" name="history" value="History">
+        <br/>
+        <br/>
+
+        <select name="dropdown" required>
+            <option value="">Select your country</option>
+            <option value="USA">USA</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="UK">UK</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="submit" name="SUBMIT" value="SUBMIT">
+    </form>
+
+    <h2>Summary Table</h2>
+    <table border="2">
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Date of Birth</th>
+                <th>Gender</th>
+                <th>Favorite Subjects</th>
+                <th>Country</th>
+            </tr>
+        
+    </table>
 </body>
-
-
-
-
 </html>
