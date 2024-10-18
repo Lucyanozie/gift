@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 100px;
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: rgb(39, 37, 37);
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+}
+
+h1 {
+    background-color:rgb(255, 131, 100);
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    border-radius: 200px;
+}
+
+div ul {
+   
+    margin: 1;
+    padding: 1;
+}
+
+div ul li {
+    
+    margin-right: 10px;
+}
+
+div ul li a {
+    color: rgb(196, 4, 4);
+}
+
+#home-intro {
+    text-align: center;
+    padding: 50px;
+}
+
+#home-intro img {
+    width: 70%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.destination {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.destination {
+    width: 80%;
+    margin: 20px;
+}
+
+.destination img {
+    width:100%;
+    border-radius: 10px;
+    padding:10%;
+}
+
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery-grid img {
+    width: 110%;
+    height: 110%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    
+}
+.peace{
+    font-size:x-large;
+}
+
+
